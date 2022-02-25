@@ -1,0 +1,17 @@
+{
+  "public": "_site",
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/cycmovil/react/demo1"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/cycmovil/react/demo1/**",
+      "destination": "/cycmovil/react/demo1/index.html"
+    }
+  ]
+}
+
+
