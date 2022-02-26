@@ -26,7 +26,7 @@ export function HeaderMenuWrapper() {
     const getHeaderLogo = () => {
         let result = "logo-light.png";
         if (layoutProps.headerSelfTheme && layoutProps.headerSelfTheme !== "dark") {
-            result = "logo-dark.png";
+            result = "logoGrainChain.png";
         }
         return toAbsoluteUrl(`/media/logos/${result}`);
     };

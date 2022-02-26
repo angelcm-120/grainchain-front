@@ -19,7 +19,12 @@ export function loginCycMovil(email, password) {
 }
 
 export function getIluminacionBombillos() {
-  return fetch(`http://localhost:3000/v1/bombillo/get-iluminacion`)
+  return fetch("http://localhost:3000/v1/bombillo/get-iluminacion", {
+		method: "POST",
+		headers: {
+			"Content-Type": "application/json",
+		},
+	});
 }
 
 export function register(email, fullname, username, password) {

@@ -47,7 +47,7 @@ export default function BasePage() {
       <Switch>
         {
           /* Redirect from root URL to /dashboard. */
-          <Redirect exact from="/" to="/home" />
+          <Redirect exact from="/grainchain/bombillos" to="/home" />
         }
         <ContentRoute path="/home" component={HomePage} />
         <ContentRoute path="/dashboard" component={DashboardPage} />

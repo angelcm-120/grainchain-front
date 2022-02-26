@@ -18,7 +18,7 @@ export default [
     phone: "456669067890",
     language: "en",
     timeZone: "International Date Line West",
-    website: "http://localhost:9001",
+    website: "http://devops:9001",
     emailSettings: {
       emailNotification: true,
       sendCopyToPersonalEmail: false,

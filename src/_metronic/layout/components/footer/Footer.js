@@ -138,7 +138,7 @@ export function Footer() {
               rel="noopener noreferrer"
               className="text-dark-75 text-hover-primary"
             >
-              CyC Devops - Plataforma Cloud - {currentTime.toString()}
+              Grain Chain - {currentTime.toString()}
             </a>
           </div>
           {}

@@ -96,7 +96,7 @@ export class HtmlClassService {
   getLogo() {
     const brandSkin = objectPath.get(this.config, "brand.self.theme");
     if (brandSkin === "light") {
-      return toAbsoluteUrl("/media/logos/logo-dark.png");
+      return toAbsoluteUrl("/media/logos/logoGrainChain.png");
     } else {
       return toAbsoluteUrl("/media/logos/logo-light.png");
     }
